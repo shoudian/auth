@@ -1,8 +1,8 @@
 <?php
-namespace Shoudian\Auth\Api;
+namespace Shoudian\Auth\Auth\Api\Auth;
 
 use PhalApi\Api;
-use Shoudian\Auth\Domain\Rule as Domain_Auth_Rule;
+use Shoudian\Auth\Auth\Domain\Auth\Rule as Domain_Auth_Rule;
 /**
  * Class Api_Auth_Rule 规则接口服务类
  * @author: hms 2015-6-8

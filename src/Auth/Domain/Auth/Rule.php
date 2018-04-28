@@ -1,7 +1,7 @@
 <?php
-namespace Shoudian\Auth\Domain;
+namespace Shoudian\Auth\Auth\Domain\Auth;
 
-use Shoudian\Auth\Model\Rule as Model_Auth_Rule;
+use Shoudian\Auth\Auth\Model\Auth\Rule as Model_Auth_Rule;
 /**
  * 规则领域类
  *

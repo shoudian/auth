@@ -1,7 +1,7 @@
 <?php
-namespace Shoudian\Auth\Domain;
+namespace Shoudian\Auth\Auth\Domain\Auth;
 
-use Shoudian\Auth\Model\User as Model_Auth_User;
+use Shoudian\Auth\Auth\Model\Auth\User as Model_Auth_User;
 /**
  * 用户领域类
  *

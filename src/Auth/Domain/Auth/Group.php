@@ -1,7 +1,7 @@
 <?php
-namespace Shoudian\Auth\Domain;
+namespace Shoudian\Auth\Auth\Domain\Auth;
 
-use Shoudian\Auth\Model\Group as Model_Auth_Group;
+use Shoudian\Auth\Auth\Model\Auth\Group as Model_Auth_Group;
 /**
  * 组领域类
  *
@@ -112,7 +112,7 @@ class Group
     public function assUser($apiObj)
     {
         $param = get_object_vars($apiObj);
-        $accessModel = new \Shoudian\Auth\Model\Access();
+        $accessModel = new \Shoudian\Auth\Auth\Model\Auth\Access();
 
         //先删除当前用户的所有关联组
         $accessModel->delByUid($param['uid']);
