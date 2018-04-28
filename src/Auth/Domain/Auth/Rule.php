@@ -88,7 +88,7 @@ class Rule
     }
 
     public function getRulesInGroups($gids) {
-        if(DI()->cache===null){
+        if(\Phalapi\DI()->cache===null){
             $rules=self::$Model->getRulesInGroups( $gids);
         }else{
             $rules=self::$Model->getRulesInGroupsCache($gids);

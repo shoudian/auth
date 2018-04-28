@@ -135,7 +135,7 @@ class Group
     
     public function getUserInGroups($uid)
     {
-        if(DI()->cache===null){
+        if(\Phalapi\DI()->cache===null){
             $r=self::$Model->getUserInGroups($uid);
         }else{
             $r=self::$Model->getUserInGroupsCache($uid);
