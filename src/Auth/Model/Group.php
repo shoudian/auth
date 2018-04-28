@@ -1,5 +1,5 @@
 <?php
-namespace Shoudian\Auth\Auth\Model\Auth;
+namespace Shoudian\Auth\Auth\Model;
 
 use PhalApi\Model\NotORMModel as NotORM;
 /*

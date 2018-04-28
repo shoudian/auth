@@ -2,9 +2,9 @@
 namespace Shoudian\Auth;
 
 use PhalApi\Translator;
-use Shoudian\Auth\Auth\Domain\Auth\Group as Domain_Auth_Group;
-use Shoudian\Auth\Auth\Domain\Auth\Rule as Domain_Auth_Rule;
-use Shoudian\Auth\Auth\Domain\Auth\User as Domain_Auth_User;
+use Shoudian\Auth\Auth\Domain\Group as Domain_Auth_Group;
+use Shoudian\Auth\Auth\Domain\Rule as Domain_Auth_Rule;
+use Shoudian\Auth\Auth\Domain\User as Domain_Auth_User;
 class Lite
 {
 

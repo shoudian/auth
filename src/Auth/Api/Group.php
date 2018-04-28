@@ -1,8 +1,8 @@
 <?php
-namespace Shoudian\Auth\Auth\Api\Auth;
+namespace Shoudian\Auth\Auth\Api;
 
 use PhalApi\Api;
-use Shoudian\Auth\Auth\Domain\Auth\Group as Domain_Auth_Group;
+use Shoudian\Auth\Auth\Domain\Group as Domain_Auth_Group;
 /**
  * Class Api_Auth_Group 组接口服务类
  * @author: hms 2015-6-8
