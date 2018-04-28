@@ -15,7 +15,6 @@ class Lite
 
     protected function init($debug)
     {
-        \Phalapi\DI()->loader->addDirs('./vendor/shoudian/auth/src/Auth');
         Translator::addMessage(API_ROOT . '/vendor/shoudian/auth/src');
     }
 
